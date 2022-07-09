@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Introducing Tale"
-author: "Chester"
+title:  "介绍Introducing Tale"
+author: "作者姓名Chester"
 comments: true
 tags: Tale
 excerpt_separator: <!--more-->
@@ -9,7 +9,7 @@ sticky: true
 hidden: true
 ---
 
-Tale is a minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. It is designed and developed by [myself](https://github.com/chesterhow/) for a friend who writes short stories.<!--more-->
+故事是一个最小的 [Jekyll](https://jekyllrb.com/) 主题为讲故事的人策划。是由 [myself](https://github.com/chesterhow/) 为写短篇故事的朋友设计开发的。<!--more-->
 
 ## Tale features
 - Compatible with GitHub Pages
