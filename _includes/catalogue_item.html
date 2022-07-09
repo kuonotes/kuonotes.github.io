@@ -1,10 +1,10 @@
 <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
   <div>
+    <span class="catalogue-tags">{{ post.tags }}</span> 
+    <time datetime="{{ post.date }}" class="catalogue-time"> &middot {{ post.date | date: "%Y-%m-%d" }}</time>
     {% if include.sticky == 'true' %}
     <span class="catalogue-pinned">置顶 &middot</span>
     {% endif %}
-    <span class="catalogue-tags">{{ post.tags }} &middot</span> 
-    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
     <h1 class="catalogue-title">{{ post.title }}</h1>
     <div class="catalogue-line"></div>
     
