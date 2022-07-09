@@ -3,7 +3,7 @@
     <span class="catalogue-tags">{{ post.tags }}</span> 
     <time datetime="{{ post.date }}" class="catalogue-time"> &middot {{ post.date | date: "%Y-%m-%d" }}</time>
     {% if include.sticky == 'true' %}
-    <span class="catalogue-pinned"> &middot 置顶</span>
+    <span class="catalogue-pinned"> "[【置顶】]"</span>
     {% endif %}
     <h1 class="catalogue-title">{{ post.title }}</h1>
     <div class="catalogue-line"></div>
