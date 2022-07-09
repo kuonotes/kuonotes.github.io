@@ -5,17 +5,16 @@ layout: default
 <div class="post">
   <div class="post-info">
     {% if page.date %}
-     <time datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d"}} &middot;</time>
+     <time datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d"}} </time>
     {% endif %}
     
     {% if page.tags %}
-         &middot;{{ page.tags }}
+        &middot; {{ page.tags }}
     {% else %}
     {% endif %}
     
     {% if page.author %}
-    <br>
-        {{ page.author }}
+        &middot; {{ page.author }}
     {% else %}
         {{ site.author.name }}
     {% endif %}
