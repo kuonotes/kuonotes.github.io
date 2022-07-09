@@ -11,24 +11,6 @@
     <h1 class="catalogue-title">{{ post.title }}</h1>
     <div class="catalogue-line"></div>
     
-    <div class="post">
-  <div class="post-info">
-    {% if page.date %}
-     <time datetime="{{ page.date }}">{{ page.date | date: "%Y-%m-%d"}} </time>
-    {% endif %}
-    
-    {% if page.tags %}
-        &middot; {{ page.tags }}
-    {% else %}
-    {% endif %}
-    
-    {% if page.author %}
-        &middot; {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %}
-  </div>
-
     <p>
       {% if post.excerpt_separator %}
         {{ post.excerpt | strip_html }}
