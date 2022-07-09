@@ -1,7 +1,7 @@
 <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
   <div>
     {% if include.sticky == 'true' %}
-    <span class="catalogue-pinned">Pinned &middot;</span>
+    <span class="catalogue-pinned">置顶Pinned &middot;</span>
     {% endif %}
     <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
     {% if page.tags %} {{ page.tags }} {% else %} {% endif %}
