@@ -1,7 +1,7 @@
 # Site settings
 title:          这是标题
 description:    "这是描述Minimal Jekyll theme for storytellers"
-url:            "这是链接https://chesterhow.github.io"
+url:            "https://chesterhow.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
