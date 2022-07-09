@@ -5,7 +5,7 @@ layout: default
 <div class="post">
   <div class="post-info">
     {% if page.date %}
-     <time datetime="{{ page.date }}">{{ page.date | date: "%Y %B" }}</time>-
+     <time datetime="{{ page.date }}">{{ page.date | date: "yyyy-MM-dd" }}</time>-
     {% endif %}
     
     {% if page.tags %}
