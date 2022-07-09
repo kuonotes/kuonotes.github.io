@@ -3,7 +3,7 @@ layout: post
 title:  "介绍Introducing Tale"
 author: "作者姓名Chester"
 comments: true
-tags: Tale
+tags: 标签Tale
 excerpt_separator: <!--more-->
 sticky: true
 hidden: true
