@@ -4,7 +4,7 @@
     <span class="catalogue-pinned">置顶 &middot;</span>
     {% endif %}
     <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
-    {% if post.tags %} 
+    {% if page.tags %} 
      {{ <span post.tags </span>}}
     {% endif %}
     <h1 class="catalogue-title">{{ post.title }}</h1>
