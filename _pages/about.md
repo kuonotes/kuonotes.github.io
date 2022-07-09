@@ -2,7 +2,7 @@
 layout: post
 title: "标题About"
 author: "作者姓名Chester"
-permalink: /关于about/
+permalink: /about/
 ---
 
 我的一个朋友写短篇小说。在一个阳光明媚的日子，我问他是否需要一个网站来展示他的作品，他答应了。我决定使用GitHub Pages来托管他的网站。这样他就不用买域名和服务器了。A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
