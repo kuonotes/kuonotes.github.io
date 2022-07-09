@@ -5,7 +5,7 @@
     {% endif %}
     <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
     {% if post.tags %}
-        &middot; {{ post.tags }}
+    <span> &middot; {{ post.tags }}</span>
     {% else %}
     {% endif %}
     <h1 class="catalogue-title">{{ post.title }}</h1>
