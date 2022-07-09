@@ -10,6 +10,11 @@ layout: default
     {% else %}
         {{ site.author.name }}
     {% endif %}
+    
+     {% if page.tags %}
+        {{ page.tags }}
+    {% else %}
+    {% endif %}
 
     {% if page.date %}
       <span>于on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
