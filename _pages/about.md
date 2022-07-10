@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "标题About"
-author: "作者姓名Chester"
+author: 
 permalink: /about/
 ---
 
