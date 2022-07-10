@@ -1,6 +1,6 @@
 # Site settings
 title:          Kuonotes
-description:    "这是描述Minimal Jekyll theme for storytellers"
+description:    "这是描述"
 url:            "https://kuonotes.github.io"
 
 # Google Analytics
@@ -8,7 +8,7 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Private insights from a homosapiens
+  name:         Kuonotes
   url:          
   email:        
 
